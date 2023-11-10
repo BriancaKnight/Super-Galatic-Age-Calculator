@@ -10,4 +10,8 @@ export default class Age {
   venus() {
     return this.earth * .62;
   }
+
+  mars() {
+    
+  }
 }
