@@ -10,6 +10,6 @@ export default class Calculation {
   }
 
   yearsToCome() {
-
+    return this.futureAge - this.currentAge;
   }
 }
