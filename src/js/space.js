@@ -12,6 +12,6 @@ export default class Age {
   }
 
   mars() {
-    
+    return this.earth * 1.88;
   }
 }
