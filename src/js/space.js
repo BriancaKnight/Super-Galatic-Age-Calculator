@@ -6,4 +6,8 @@ export default class Age {
   mercury() {
     return this.earth * .24;
   }
+
+  venus() {
+    
+  }
 }

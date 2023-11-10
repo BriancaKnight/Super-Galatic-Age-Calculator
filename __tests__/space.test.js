@@ -14,4 +14,8 @@ describe('Age', () => {
   test('It should create a Merecury prototype to return age in Mercury years.', () => {
     expect(newAge.mercury()).toEqual(24);
   })
+
+  test('It shoule create a Venus prototype to return age in Venus years.', () => {
+    expect(newAge.venus()).toEqual(62)
+  })
 });
