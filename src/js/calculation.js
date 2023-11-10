@@ -3,4 +3,8 @@ export default class Calculation {
     this.age1 = age1;
     this.age2 = age2;
   }
+
+  difference() {
+
+  }
 }

@@ -13,6 +13,9 @@ describe('Calculation', () => {
     expect(newCalculation.age1).toEqual(100);
     expect(newCalculation.age2).toEqual(50);
   });
+
+  test('It should create a prototype to find the difference between two ages', () => {
+    expect(newCalculation.difference()).toEqual(50)
+  });
+
 });
-
-
