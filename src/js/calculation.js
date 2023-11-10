@@ -1,10 +1,15 @@
 export default class Calculation {
-  constructor(age1, age2) {
-    this.age1 = age1;
-    this.age2 = age2;
+  constructor(pastAge, currentAge, futureAge) {
+    this.pastAge = pastAge;
+    this.currentAge = currentAge;
+    this.futureAge = futureAge;
   }
 
-  difference() {
-    return this.age1 - this.age2;
+  yearsPassed() {
+    return this.currentAge - this.pastAge;
+  }
+
+  yearsToCome() {
+
   }
 }
