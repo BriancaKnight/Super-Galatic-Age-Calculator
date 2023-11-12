@@ -3,9 +3,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
 import Age from './js/space.js'
 
-document.getElementById('calculate-age').addEventListener('click', handleForm)
+document.getElementById('calculate-age').addEventListener('click', handleAgeForm)
+document.getElementById('years-passed').addEventListener('click', handleForm)
+document.getElementById('future-years').addEventListener('click', handleForm)
 
-function handleForm(event) {
+function handleAgeForm(event) {
   event.preventDefault();
   document.querySelector('#planets').innerText = null;
   const userAge = parseInt(document.querySelector('#user-age').value);
@@ -20,3 +22,4 @@ function handleForm(event) {
   jupiterTag.innerText = `Age on Jupiter: ${newAge.jupiter()} years`
   document.querySelector("#planets").append(mercuryTag, venusTag, marsTag, jupiterTag);
 }
+
