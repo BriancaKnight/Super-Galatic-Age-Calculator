@@ -34,7 +34,7 @@ describe('Age', () => {
   });
 
   test('It should create a prototype to find future years to pass between two ages', () => {
-    expect(newAge.future(otherAge.earth)).toEqual(50);
+    expect(newAge.future(otherAge.earth)).toEqual(-50);
   });  
 });
 

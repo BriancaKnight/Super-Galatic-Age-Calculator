@@ -24,6 +24,6 @@ export default class Age {
   }
 
   future(otherAge) {
-    
+    return otherAge - this.earth
   }
 }
