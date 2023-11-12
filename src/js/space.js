@@ -19,7 +19,11 @@ export default class Age {
     return this.earth * 11.86;
   }
 
-  calculate(otherAge) {
+  passed(otherAge) {
     return this.earth - otherAge;
+  }
+
+  future(otherAge) {
+    
   }
 }

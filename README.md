@@ -1,29 +1,34 @@
-# (Application Name)
+# Super Galactic Age Calculator
 
-#### (Brief Description of Application)
+#### An age conversion interface
 
-#### By (Your Name Here)
+#### By Brianca Knight
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* HTML
+* Javascript
+* Bootstrap
+* Jest
+* Node Package Manager
+* Webpack
 
-## Description
+## This application takes an age on Earth and calculates the age equivalency on different planets. It will also let the user see the difference of years between two ages (on Earth, Mercury, Mars, Venus, and Jupiter).  
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
+* Clone this repository to your desktop.
+* Navigate to the top level of the directory.
+* 
 * _easy-to-understand_
 * _format_
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* None.
 
 ## License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+Copyright (c) 2023 Brianca Knight
