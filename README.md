@@ -12,6 +12,7 @@
 * Jest
 * Node Package Manager
 * Webpack
+* CSS
 
 ## Description
 
