@@ -18,12 +18,10 @@ export default class Age {
   jupiter() {
     return this.earth / 11.86;
   }
+}
 
-  passed(otherAge) {
-    return this.earth - otherAge;
-  }
+export class Calculation {
+  constructor (currentAge, pastAge, futureAge) {
 
-  future(otherAge) {
-    return otherAge - this.earth
   }
 }
