@@ -10,6 +10,6 @@ export default class Calculation {
   }
 
   future() {
-    
+    return this.futureAge - this.currentAge;
   }
 }
