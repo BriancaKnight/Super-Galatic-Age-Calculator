@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1699822852945" clover="3.2.0">
-  <project timestamp="1699822852945" name="All files">
-    <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7" elements="13" coveredelements="13" complexity="0" loc="6" ncloc="6" packages="1" files="1" classes="1"/>
+<coverage generated="1699907910850" clover="3.2.0">
+  <project timestamp="1699907910851" name="All files">
+    <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="8" elements="18" coveredelements="18" complexity="0" loc="10" ncloc="10" packages="1" files="2" classes="2"/>
+    <file name="calculation.js" path="/Users/brianca/Desktop/space/src/js/calculation.js">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <line num="3" count="3" type="stmt"/>
+      <line num="4" count="3" type="stmt"/>
+      <line num="5" count="3" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+    </file>
     <file name="space.js" path="/Users/brianca/Desktop/space/src/js/space.js">
-      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7"/>
-      <line num="3" count="14" type="stmt"/>
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+      <line num="3" count="10" type="stmt"/>
       <line num="7" count="1" type="stmt"/>
       <line num="11" count="1" type="stmt"/>
       <line num="15" count="1" type="stmt"/>
       <line num="19" count="1" type="stmt"/>
-      <line num="23" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>

@@ -19,9 +19,3 @@ export default class Age {
     return this.earth / 11.86;
   }
 }
-
-export class Calculation {
-  constructor (currentAge, pastAge, futureAge) {
-
-  }
-}
