@@ -4,19 +4,19 @@ export default class Age {
   }
 
   mercury() {
-    return this.earth * .24;
+    return this.earth / .24;
   }
 
   venus() {
-    return this.earth * .62;
+    return this.earth / .62;
   }
 
   mars() {
-    return this.earth * 1.88;
+    return this.earth / 1.88;
   }
 
   jupiter() {
-    return this.earth * 11.86;
+    return this.earth / 11.86;
   }
 
   passed(otherAge) {

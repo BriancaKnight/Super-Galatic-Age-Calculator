@@ -14,19 +14,19 @@ describe('Age', () => {
   });
 
   test('It should create a merecury prototype to return age in Mercury years.', () => {
-    expect(newAge.mercury()).toEqual(24);
+    expect(newAge.mercury()).toEqual(100/.24);
   });
 
   test('It should create a venus prototype to return age in Venus years.', () => {
-    expect(newAge.venus()).toEqual(62)
+    expect(newAge.venus()).toEqual(100/.62)
   });
 
   test('It should create a mars prototype to return age in Mars years.', () => {
-    expect(newAge.mars()).toEqual(188)
+    expect(newAge.mars()).toEqual(100/1.88)
   });
 
   test('It should create a jupiter prototype to return age in Jupiter years', () => {
-    expect(newAge.jupiter()).toEqual(1186)
+    expect(newAge.jupiter()).toEqual(100/11.86)
   });
 
   test('It should create a prototype to find years passed between two ages', () => {
