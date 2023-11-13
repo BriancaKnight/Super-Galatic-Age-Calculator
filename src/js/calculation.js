@@ -6,7 +6,7 @@ export default class Calculation {
   }
 
   passed() {
-
+    return this.currentAge - this.pastAge;
   }
 
 }
