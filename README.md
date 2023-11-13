@@ -13,15 +13,16 @@
 * Node Package Manager
 * Webpack
 
-## This application takes an age on Earth and calculates the age equivalency on different planets. It will also let the user see the difference of years between two ages (on Earth, Mercury, Mars, Venus, and Jupiter).  
+## Description
+
+This application takes an age on Earth and calculates the age equivalency on different planets. It will also let the user see the difference of years between two ages (on Earth, Mercury, Mars, Venus, and Jupiter).  
 
 ## Setup/Installation Requirements
 
 * Clone this repository to your desktop.
 * Navigate to the top level of the directory.
-* 
-* _easy-to-understand_
-* _format_
+* Install Node.js (you can download it from the Node.js website)
+* From the top level of the directory, open the browser application through a server by writing the following in your command line, "npm run start".
 
 ## Known Bugs
 
