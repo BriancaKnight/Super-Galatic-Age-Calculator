@@ -16,6 +16,10 @@ describe('Calculation', () => {
   test('It should create a prototype that finds years passed between two ages', () => {
     expect(calculation.passed()).toEqual(50);
   });
+
+  test('It should createe a prototype that finds years to come beetween two ages.', () => {
+    expect(calculation.future()).toEqual(100)
+  })
 });
 
 

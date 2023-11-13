@@ -9,4 +9,7 @@ export default class Calculation {
     return this.currentAge - this.pastAge;
   }
 
+  future() {
+    
+  }
 }
