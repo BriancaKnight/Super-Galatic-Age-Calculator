@@ -13,6 +13,9 @@
 * Node Package Manager
 * Webpack
 * CSS
+* JSON
+* Babel
+* ESLint
 
 ## Description
 
@@ -22,8 +25,12 @@ This application takes an age on Earth and calculates the age equivalency on dif
 
 * Clone this repository to your desktop.
 * Navigate to the top level of the directory.
-* Install Node.js (you can download it from the Node.js website)
-* From the top level of the directory, open the browser application through a server by writing the following in your command line, "npm run start".
+* Install Node.js with `npm install`.
+* To build the webpack run `npm run build`
+* To start the development server run `npm run start`
+* To lint the project run `npm run lint`
+* To test using Jest run `npm run test`
+
 
 ## Known Bugs
 
